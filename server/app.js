@@ -31,9 +31,6 @@ app.get ('/', (req, res, next) => {
  })
 })
 
-app.get ('/going', (req, res, next) => {
-
-})
 
 
 // catch 404 and forward to error handler

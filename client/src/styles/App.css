@@ -37,16 +37,33 @@ p {
 	border-bottom: 1px solid #888;
 	margin-bottom: 10px;
 }
+.gButton {
+	background: green;
+	color: white;
+	margin-right: 50px;
+	padding: 10px;
+
+}
 .going {
 	background: green;
 	color: white;
 	margin-right: 50px;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ngButton {
+	background: red;
+	color: white;
 	padding: 10px;
 }
 .notgoing {
 	background: red;
 	color: white;
 	padding: 10px;
+	margin-right: 50px;
+	display: flex;
+	flex-wrap: wrap;
 }
 .stats {
 	padding-right: 50px;
