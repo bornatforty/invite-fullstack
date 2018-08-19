@@ -12,8 +12,8 @@ class Invite extends Component {
     getGoing()
     getNotgoing()
 	}
-//need componentwillreceiveprops
-	updateGoing = (id) => {
+
+  	updateGoing = (id) => {
 		update(id, 'going')
 	}
 
@@ -35,7 +35,7 @@ class Invite extends Component {
         			<p>Email: {user.email}</p>
         			<p>Phone: {user.phone}</p>
         		</div>
-        	   	<button  type="submit" className="gButton" onClick={() => {this.updateGoing(user.id)}}><i className="fa fa-check"></i></button>
+        	   	<button type="submit" className="gButton" onClick={() => {this.updateGoing(user.id)}}><i className="fa fa-check"></i></button>
         		  <button type="submit" className="ngButton" onClick={() => {this.updateNotGoing(user.id)}}><i className="fa fa-times"></i></button>
         	</div>
         ))}
